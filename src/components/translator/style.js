@@ -11,7 +11,6 @@ export const Wrapperstyle = styled.div`
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   /* margin-top: 100px; */
   padding-top: 100px;
-  
 
   select {
     width: fit-content;
@@ -24,10 +23,14 @@ export const Wrapperstyle = styled.div`
     font-size: 14px;
     padding: 5px 14px;
     font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: -80px;
+    left: -50px;
   }
 `;
 
 export const Inputstyle = styled.div`
+  position: relative;
   width: 50%;
 `;
 

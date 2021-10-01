@@ -53,6 +53,36 @@ function Translator() {
   return (
     <Wrapperstyle>
       <Inputstyle>
+        <select id="select" defaultValue="en-ru">
+          <option value="ru-ru">Russian ➞ Russian </option>
+          <option value="ru-en">Russian ➞ English </option>
+          <option value="ru-pl">Russian ➞ Polandish </option>
+          <option value="ru-uk">Russian ➞ Ukrainian </option>
+          <option value="ru-de">Russian ➞ German </option>
+          <option value="ru-fr">Russian ➞ French </option>
+          <option value="ru-es">Russian ➞ Spanish </option>
+          <option value="ru-it">Russian ➞ Italian </option>
+          <option value="ru-tr">Russian ➞ Turkish </option>
+          <option value="en-ru">English ➞ Russian </option>
+          <option value="en-en">English ➞ English </option>
+          <option value="en-de">English ➞ German </option>
+          <option value="en-fr">English ➞ French </option>
+          <option value="en-es">English ➞ Spanish </option>
+          <option value="en-it">English ➞ Italian </option>
+          <option value="en-tr">English ➞ Turkish </option>
+          <option value="pl-ru">Polandish ➞ Russian </option>
+          <option value="uk-ru">Ukrainian ➞ Russian </option>
+          <option value="de-ru">German ➞ Russian </option>
+          <option value="de-en">German ➞ English </option>
+          <option value="fr-ru">French ➞ Russian </option>
+          <option value="fr-en">French ➞ English </option>
+          <option value="es-ru">Spanish ➞ Russian </option>
+          <option value="es-en">Spanish ➞ English </option>
+          <option value="it-ru">Italian ➞ Russian </option>
+          <option value="it-en">Italian ➞ English </option>
+          <option value="tr-ru">Turkish ➞ Russian </option>
+          <option value="tr-en">Turkish ➞ English </option>
+        </select>
         <Positionstyle>
           <textarea
             onChange={getDictionary}
@@ -63,39 +93,16 @@ function Translator() {
           ></textarea>
         </Positionstyle>
         <Linktext>
-          Powered by <a style={{color : "red"}} href="https://yandex.com/dev/dictionary/" target="_blank">Masaidov Bekzod</a>
+          Powered by{" "}
+          <a
+            style={{ color: "red" }}
+            href="https://yandex.com/dev/dictionary/"
+            target="_blank"
+          >
+            Masaidov Bekzod
+          </a>
         </Linktext>
       </Inputstyle>
-      <select id="select" defaultValue="en-ru">
-        <option value="ru-ru">Russian ➞ Russian </option>
-        <option value="ru-en">Russian ➞ English </option>
-        <option value="ru-pl">Russian ➞ Polandish </option>
-        <option value="ru-uk">Russian ➞ Ukrainian </option>
-        <option value="ru-de">Russian ➞ German </option>
-        <option value="ru-fr">Russian ➞ French </option>
-        <option value="ru-es">Russian ➞ Spanish </option>
-        <option value="ru-it">Russian ➞ Italian </option>
-        <option value="ru-tr">Russian ➞ Turkish </option>
-        <option value="en-ru">English ➞ Russian </option>
-        <option value="en-en">English ➞ English </option>
-        <option value="en-de">English ➞ German </option>
-        <option value="en-fr">English ➞ French </option>
-        <option value="en-es">English ➞ Spanish </option>
-        <option value="en-it">English ➞ Italian </option>
-        <option value="en-tr">English ➞ Turkish </option>
-        <option value="pl-ru">Polandish ➞ Russian </option>
-        <option value="uk-ru">Ukrainian ➞ Russian </option>
-        <option value="de-ru">German ➞ Russian </option>
-        <option value="de-en">German ➞ English </option>
-        <option value="fr-ru">French ➞ Russian </option>
-        <option value="fr-en">French ➞ English </option>
-        <option value="es-ru">Spanish ➞ Russian </option>
-        <option value="es-en">Spanish ➞ English </option>
-        <option value="it-ru">Italian ➞ Russian </option>
-        <option value="it-en">Italian ➞ English </option>
-        <option value="tr-ru">Turkish ➞ Russian </option>
-        <option value="tr-en">Turkish ➞ English </option>
-      </select>
 
       <Transstyle>
         <ul>
@@ -108,7 +115,6 @@ function Translator() {
                     {item.text}
                   </span>
                   {item.gen},
-                  
                 </li>
               ))}
             </ol>
