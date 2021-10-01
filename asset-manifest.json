@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yandex-dictionary/static/css/main.79651542.chunk.css",
-    "main.js": "/yandex-dictionary/static/js/main.bb19f2ba.chunk.js",
-    "main.js.map": "/yandex-dictionary/static/js/main.bb19f2ba.chunk.js.map",
+    "main.js": "/yandex-dictionary/static/js/main.9fbd38a9.chunk.js",
+    "main.js.map": "/yandex-dictionary/static/js/main.9fbd38a9.chunk.js.map",
     "runtime-main.js": "/yandex-dictionary/static/js/runtime-main.4dda7a70.js",
     "runtime-main.js.map": "/yandex-dictionary/static/js/runtime-main.4dda7a70.js.map",
     "static/js/2.542977d0.chunk.js": "/yandex-dictionary/static/js/2.542977d0.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4dda7a70.js",
     "static/js/2.542977d0.chunk.js",
     "static/css/main.79651542.chunk.css",
-    "static/js/main.bb19f2ba.chunk.js"
+    "static/js/main.9fbd38a9.chunk.js"
   ]
 }
